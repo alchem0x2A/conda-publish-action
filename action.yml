@@ -11,8 +11,8 @@ inputs:
   anacondatoken:
     description: 'Anaconda access token'
   platforms:
-    description: 'Platforms to publish [osx/linux/win]'
-    default: 'win osx linux'
+    description: 'Platforms to publish [noarch/osx/linux/win]'
+    default: 'noarch'
 runs:
   using: 'docker'
   image: 'Dockerfile'
